@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Aug 29 04:44:56 CVT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0165-8436-9c3a-0000003f61b0 
+on database directory C:\Users\Aduanich\Desktop\eclipse-workspace\TFG\DB\Derby.DB with class loader sun.misc.Launcher$AppClassLoader@11210ee 
+Loaded from file:/C:/Users/Aduanich/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=C:\Users\Aduanich\Desktop\eclipse-workspace\TFG
+os.name=Windows 8.1
+os.arch=x86
+os.version=6.3
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

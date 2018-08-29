@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[348],{937:function(o,e){o.exports='For each Quality Gate condition you must choose the metric to be tested, the threshold at which to raise a warning or error, and whether or not to apply the condition to all code or only to Leak Period code (irrelevant for conditions "on New Code").\n\n---\n\nSee also: [Fixing the Water Leak](/fixing-the-water-leak)\n'}}]);
+//# sourceMappingURL=348.133ef538.chunk.js.map

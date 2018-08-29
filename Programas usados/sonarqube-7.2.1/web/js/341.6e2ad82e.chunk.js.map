@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///../sonar-docs/src/tooltips/rules/custom-rules.md"],"names":["module","exports"],"mappings":"6EAAAA,EAAAC,QAAA","file":"js/341.6e2ad82e.chunk.js","sourcesContent":["module.exports = \"Custom rules are created by administrators from templates, and are the only fully-editable rules.\\n\""],"sourceRoot":""}

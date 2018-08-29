@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[352],{941:function(a,n){a.exports="An organization is a space where a team or a whole company can collaborate across many projects. A new organization is on a free plan by default, which means its projects will be public. Subscribe to paid plan to analyze projects privately\n\n---\n\nSee also: [Organizations](/organizations/index) and [Pricing](/paid-plan)\n"}}]);
+//# sourceMappingURL=352.ad0bb314.chunk.js.map

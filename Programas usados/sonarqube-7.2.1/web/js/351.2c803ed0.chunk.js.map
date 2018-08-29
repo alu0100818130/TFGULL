@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///../sonar-docs/src/tooltips/quality-gates/built-in-quality-gate.md"],"names":["module","exports"],"mappings":"6EAAAA,EAAAC,QAAA","file":"js/351.2c803ed0.chunk.js","sourcesContent":["module.exports = \"Built-in, immutable Quality Gate reflecting best practices.\\n\""],"sourceRoot":""}

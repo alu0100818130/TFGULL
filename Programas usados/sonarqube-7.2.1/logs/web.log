@@ -1,0 +1,65 @@
+2018.08.28 22:40:55 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2018.08.28 22:40:57 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2018.08.28 22:40:58 INFO  web[][o.e.p.PluginsService] no modules loaded
+2018.08.28 22:40:58 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2018.08.28 22:40:58 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2018.08.28 22:40:58 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.08.28 22:40:59 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2018.08.28 22:40:59 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 7.2.1.14109 / ec3b36b6cbe32cd9f53fa82c7ba617c703a18e4c
+2018.08.28 22:41:00 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2018.08.28 22:41:00 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data
+2018.08.28 22:41:00 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2018.08.28 22:41:00 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only.
+2018.08.28 22:41:01 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1
+2018.08.28 22:41:01 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2018.08.28 22:41:01 INFO  web[][o.s.c.e.CoreExtensionsLoader] Loaded core extensions: 
+2018.08.28 22:41:02 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Git / 1.4.1.1128 / e051f5aeb379541b13956447b5dc8b4e0b23b098
+2018.08.28 22:41:02 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin LDAP / 2.2.0.608 / 79dc3fa4393a29667673c70182f3016288b548b7
+2018.08.28 22:41:02 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 7.2.0.5463 / cacb8e6bb86ea1ab470dac33733e1eccfa0ccbaf
+2018.08.28 22:41:02 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarFlex / 2.4.0.1222 / 68d9cb3b7daccbc4869c4f2b89d09218d26a0829
+2018.08.28 22:41:02 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarGo / 1.1.0.1612 / 1809c7be6d88396c0a1b8d597b1e9e0ed8d29730
+2018.08.28 22:41:02 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 4.1.0.6085 / 0a33c1a749126986ce73dd749f64f14ff4c91e33
+2018.08.28 22:41:02 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 5.4.0.14284 / 1d0b2672ed856493960c5c9f9ef30d715ebb5de6
+2018.08.28 22:41:02 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.13.0.3107 / 9592e5feedc752eddc8f4c15763e80d2bd07ade7
+2018.08.28 22:41:02 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.10.0.2131 / a00e0ddc83bbeb01a9ee7475fab9eafe3f4096ac
+2018.08.28 22:41:02 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.7.0.2893 / 0d296cae94240b183a0b3ae6e1a409a60fe9f865
+2018.08.28 22:41:02 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.5.1.1452 / eadc1dcd0e24a3c77068e3c1d41af0327d6b16ea
+2018.08.28 22:41:02 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Svn / 1.7.0.1017 / 49f31dd1fa72844fb25a98937e76b1469b39d135
+2018.08.28 22:41:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@74587911 [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/properties*, ...]}]
+2018.08.28 22:41:04 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2018.08.28 22:41:05 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2018.08.28 22:41:07 INFO  web[][o.s.s.s.LogServerId] Server ID: AWTDQ235bjw8XvSJOBQU
+2018.08.28 22:41:07 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/plugins/download
+2018.08.28 22:41:07 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2018.08.28 22:41:07 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2018.08.28 22:41:07 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2018.08.28 22:41:07 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2018.08.28 22:41:07 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2018.08.28 22:41:07 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2018.08.28 22:41:10 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2018.08.28 22:41:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2018.08.28 22:41:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile cs/Sonar way
+2018.08.28 22:41:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile java/Sonar way
+2018.08.28 22:41:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile flex/Sonar way
+2018.08.28 22:41:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile xml/Sonar way
+2018.08.28 22:41:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile go/Sonar way
+2018.08.28 22:41:11 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2018.08.28 22:41:11 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2018.08.28 22:41:11 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Sonar way
+2018.08.28 22:41:11 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/PSR-2
+2018.08.28 22:41:11 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Drupal
+2018.08.28 22:41:11 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile py/Sonar way
+2018.08.28 22:41:11 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2018.08.28 22:41:11 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2018.08.28 22:41:11 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2018.08.28 22:41:11 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2018.08.28 22:41:11 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@10878562 [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/properties*, ...]}]
+2018.08.28 22:41:11 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@3bef126b [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2018.08.28 22:41:11 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@3fbfb834 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2018.08.28 22:41:11 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@4fddcef9 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2018.08.28 22:41:11 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@1393f154 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2018.08.28 22:41:11 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@4a2f14d6 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2018.08.28 22:41:11 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@6bd2e9c6 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2018.08.28 22:41:11 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@17299efc [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2018.08.28 22:41:11 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
+2018.08.28 22:41:11 INFO  web[][o.s.s.p.Platform] WebServer is operational

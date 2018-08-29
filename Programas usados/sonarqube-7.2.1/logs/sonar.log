@@ -1,0 +1,569 @@
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2018.07.22 17:31:52 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp
+2018.07.22 17:31:52 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.07.22 17:31:53 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1\elasticsearch]: C:\Program Files\Java\jre1.8.0_141\bin\java -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -Xms512m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError -Delasticsearch -Des.path.home=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\elasticsearch -cp lib/* org.elasticsearch.bootstrap.Elasticsearch -Epath.conf=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\conf\es
+2018.07.22 17:31:53 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2018.07.22 17:31:54 INFO  app[][o.e.p.PluginsService] no modules loaded
+2018.07.22 17:31:55 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.07.22 17:32:02 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2018.07.22 17:32:02 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\sq-process8029701395462800288properties
+2018.07.22 17:32:34 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp
+2018.07.22 17:32:34 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.07.22 17:32:34 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1\elasticsearch]: C:\Program Files\Java\jre1.8.0_141\bin\java -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -Xms512m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError -Delasticsearch -Des.path.home=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\elasticsearch -cp lib/* org.elasticsearch.bootstrap.Elasticsearch -Epath.conf=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\conf\es
+2018.07.22 17:32:34 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2018.07.22 17:32:34 INFO  app[][o.e.p.PluginsService] no modules loaded
+2018.07.22 17:32:34 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.07.22 17:32:35 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2018.07.22 17:32:35 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\sq-process8546387999715354781properties
+2018.07.22 17:32:36 WARN  app[][o.s.a.p.AbstractProcessMonitor] Process exited with exit value [es]: 1
+2018.07.22 17:32:36 INFO  app[][o.s.a.SchedulerImpl] Process [es] is stopped
+2018.07.22 17:32:36 INFO  app[][o.s.a.SchedulerImpl] Process [web] is stopped
+2018.07.22 17:32:36 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+2018.07.22 17:32:52 INFO  app[][o.s.a.SchedulerImpl] Process [web] is stopped
+2018.07.22 17:32:52 INFO  app[][o.s.a.SchedulerImpl] Process [es] is stopped
+2018.07.22 17:32:52 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+2018.07.22 17:32:52 WARN  app[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0x4d2cebb8, L:/127.0.0.1:49269 - R:/127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:433)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+2018.07.22 17:32:52 WARN  app[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xb037426f, L:/127.0.0.1:49273 - R:/127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:433)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+2018.07.22 17:32:52 WARN  app[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xb496f4f8, L:/127.0.0.1:49277 - R:/127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:433)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+2018.07.22 17:32:52 WARN  app[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0x6863ab18, L:/127.0.0.1:49272 - R:/127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:433)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+2018.07.22 17:32:52 WARN  app[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xc35739eb, L:/127.0.0.1:49279 - R:/127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:433)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+2018.07.22 17:32:52 WARN  app[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0x903862e3, L:/127.0.0.1:49278 - R:/127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:433)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+2018.07.22 17:32:52 WARN  app[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xcc51088d, L:/127.0.0.1:49274 - R:/127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:433)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+2018.07.22 17:32:52 WARN  app[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xfa47e01d, L:/127.0.0.1:49275 - R:/127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:433)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+2018.07.22 17:32:52 WARN  app[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xb16f9c9c, L:/127.0.0.1:49270 - R:/127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:433)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+2018.07.22 17:32:52 WARN  app[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0x0ab3a2f7, L:/127.0.0.1:49271 - R:/127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:433)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+2018.07.22 17:32:52 WARN  app[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0x9ae7531c, L:/127.0.0.1:49281 - R:/127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:433)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+2018.07.22 17:32:52 WARN  app[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0x01868241, L:/127.0.0.1:49280 - R:/127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:433)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+2018.07.22 17:32:52 WARN  app[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xf2432144, L:/127.0.0.1:49276 - R:/127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:433)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2018.07.22 17:33:37 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp
+2018.07.22 17:33:37 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.07.22 17:33:38 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1\elasticsearch]: C:\Program Files\Java\jre1.8.0_141\bin\java -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -Xms512m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError -Delasticsearch -Des.path.home=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\elasticsearch -cp lib/* org.elasticsearch.bootstrap.Elasticsearch -Epath.conf=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\conf\es
+2018.07.22 17:33:38 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2018.07.22 17:33:38 INFO  app[][o.e.p.PluginsService] no modules loaded
+2018.07.22 17:33:38 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.07.22 17:33:51 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2018.07.22 17:33:51 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\sq-process4260839345042522185properties
+2018.07.22 17:34:10 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2018.07.22 17:34:10 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='ce', ipcIndex=3, logFilenamePrefix=ce]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\sq-process78761065478641448properties
+2018.07.22 17:34:14 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2018.07.22 17:34:14 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2018.07.28 18:15:03 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp
+2018.07.28 18:15:04 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.07.28 18:15:04 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1\elasticsearch]: C:\Program Files\Java\jre1.8.0_141\bin\java -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -Xms512m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError -Delasticsearch -Des.path.home=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\elasticsearch -cp lib/* org.elasticsearch.bootstrap.Elasticsearch -Epath.conf=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\conf\es
+2018.07.28 18:15:05 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2018.07.28 18:15:10 INFO  app[][o.e.p.PluginsService] no modules loaded
+2018.07.28 18:15:10 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.07.28 18:15:37 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2018.07.28 18:15:37 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\sq-process3486905186670570056properties
+2018.07.28 18:16:03 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2018.07.28 18:16:03 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='ce', ipcIndex=3, logFilenamePrefix=ce]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\sq-process8362761993266053441properties
+2018.07.28 18:16:07 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2018.07.28 18:16:07 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2018.07.29 02:27:11 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp
+
+WrapperSimpleApp: Encountered an error running main: java.nio.file.FileSystemException: C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\ce-exploded-plugins\csharp\sonar-csharp-plugin-7.2.0.5463.jar: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.
+
+java.nio.file.FileSystemException: C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\ce-exploded-plugins\csharp\sonar-csharp-plugin-7.2.0.5463.jar: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:170)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:165)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.process.FileUtils2.deleteDirectoryImpl(FileUtils2.java:127)
+	at org.sonar.process.FileUtils2.deleteDirectory(FileUtils2.java:112)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:117)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:101)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.application.AppFileSystem.createOrCleanTempDirectory(AppFileSystem.java:96)
+	at org.sonar.application.AppFileSystem.reset(AppFileSystem.java:62)
+	at org.sonar.application.App.start(App.java:55)
+	at org.sonar.application.App.main(App.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2018.07.29 02:27:35 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp
+
+WrapperSimpleApp: Encountered an error running main: java.nio.file.FileSystemException: C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\ce-exploded-plugins\csharp\sonar-csharp-plugin-7.2.0.5463.jar: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.
+
+java.nio.file.FileSystemException: C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\ce-exploded-plugins\csharp\sonar-csharp-plugin-7.2.0.5463.jar: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:170)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:165)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.process.FileUtils2.deleteDirectoryImpl(FileUtils2.java:127)
+	at org.sonar.process.FileUtils2.deleteDirectory(FileUtils2.java:112)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:117)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:101)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.application.AppFileSystem.createOrCleanTempDirectory(AppFileSystem.java:96)
+	at org.sonar.application.AppFileSystem.reset(AppFileSystem.java:62)
+	at org.sonar.application.App.start(App.java:55)
+	at org.sonar.application.App.main(App.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+<-- Wrapper Stopped
+OpenSCManager failed - Acceso denegado. (0x5)
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2018.07.29 02:28:29 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp
+
+WrapperSimpleApp: Encountered an error running main: java.nio.file.FileSystemException: C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\ce-exploded-plugins\csharp\sonar-csharp-plugin-7.2.0.5463.jar: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.
+
+java.nio.file.FileSystemException: C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\ce-exploded-plugins\csharp\sonar-csharp-plugin-7.2.0.5463.jar: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:170)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:165)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.process.FileUtils2.deleteDirectoryImpl(FileUtils2.java:127)
+	at org.sonar.process.FileUtils2.deleteDirectory(FileUtils2.java:112)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:117)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:101)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.application.AppFileSystem.createOrCleanTempDirectory(AppFileSystem.java:96)
+	at org.sonar.application.AppFileSystem.reset(AppFileSystem.java:62)
+	at org.sonar.application.App.start(App.java:55)
+	at org.sonar.application.App.main(App.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2018.07.29 02:29:49 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp
+
+WrapperSimpleApp: Encountered an error running main: java.nio.file.FileSystemException: C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\ce-exploded-plugins\csharp\sonar-csharp-plugin-7.2.0.5463.jar: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.
+
+java.nio.file.FileSystemException: C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\ce-exploded-plugins\csharp\sonar-csharp-plugin-7.2.0.5463.jar: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:170)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:165)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.process.FileUtils2.deleteDirectoryImpl(FileUtils2.java:127)
+	at org.sonar.process.FileUtils2.deleteDirectory(FileUtils2.java:112)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:117)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:101)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.application.AppFileSystem.createOrCleanTempDirectory(AppFileSystem.java:96)
+	at org.sonar.application.AppFileSystem.reset(AppFileSystem.java:62)
+	at org.sonar.application.App.start(App.java:55)
+	at org.sonar.application.App.main(App.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Startup failed: Timed out waiting for a signal from the JVM.
+JVM did not exit on request, terminated
+JVM Restarts disabled.  Shutting down.
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2018.07.29 02:49:08 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp
+2018.07.29 02:49:09 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.07.29 02:49:09 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1\elasticsearch]: C:\Program Files\Java\jre1.8.0_141\bin\java -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -Xms512m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError -Delasticsearch -Des.path.home=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\elasticsearch -cp lib/* org.elasticsearch.bootstrap.Elasticsearch -Epath.conf=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\conf\es
+2018.07.29 02:49:10 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2018.07.29 02:49:15 INFO  app[][o.e.p.PluginsService] no modules loaded
+2018.07.29 02:49:15 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.07.29 02:49:57 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2018.07.29 02:49:57 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\sq-process4877234961987640492properties
+2018.07.29 02:50:21 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2018.07.29 02:50:21 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='ce', ipcIndex=3, logFilenamePrefix=ce]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\sq-process8127796694030038667properties
+2018.07.29 02:50:26 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2018.07.29 02:50:26 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+CTRL-C trapped.  Shutting down.
+2018.07.29 06:46:49 INFO  app[][o.s.a.SchedulerImpl] Stopping SonarQube
+2018.07.29 06:46:52 INFO  app[][o.s.a.SchedulerImpl] Process [ce] is stopped
+2018.07.29 06:46:55 INFO  app[][o.s.a.SchedulerImpl] Process [web] is stopped
+2018.07.29 06:46:55 INFO  app[][o.s.a.SchedulerImpl] Process [es] is stopped
+2018.07.29 06:46:55 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2018.07.29 20:41:27 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp
+2018.07.29 20:41:28 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.07.29 20:41:29 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1\elasticsearch]: C:\Program Files\Java\jre1.8.0_141\bin\java -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -Xms512m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError -Delasticsearch -Des.path.home=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\elasticsearch -cp lib/* org.elasticsearch.bootstrap.Elasticsearch -Epath.conf=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\conf\es
+2018.07.29 20:41:31 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2018.07.29 20:41:32 INFO  app[][o.e.p.PluginsService] no modules loaded
+2018.07.29 20:41:32 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.07.29 20:41:52 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2018.07.29 20:41:52 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\sq-process2396157639961966460properties
+2018.07.29 20:42:08 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2018.07.29 20:42:08 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='ce', ipcIndex=3, logFilenamePrefix=ce]] from [C:\Users\Aduanich\Desktop\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Users\Aduanich\Desktop\sonarqube-7.2.1\temp\sq-process670107824482535203properties
+2018.07.29 20:42:12 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2018.07.29 20:42:12 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+CTRL-C trapped.  Shutting down.
+2018.07.30 03:52:59 INFO  app[][o.s.a.SchedulerImpl] Stopping SonarQube
+2018.07.30 03:53:01 INFO  app[][o.s.a.SchedulerImpl] Process [ce] is stopped
+2018.07.30 03:53:05 INFO  app[][o.s.a.SchedulerImpl] Process [web] is stopped
+2018.07.30 03:53:05 INFO  app[][o.s.a.SchedulerImpl] Process [es] is stopped
+2018.07.30 03:53:05 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2018.08.04 21:05:48 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp
+2018.08.04 21:05:48 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.08.04 21:05:49 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\elasticsearch]: C:\Program Files\Java\jre1.8.0_141\bin\java -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -Xms512m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError -Delasticsearch -Des.path.home=C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\elasticsearch -cp lib/* org.elasticsearch.bootstrap.Elasticsearch -Epath.conf=C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp\conf\es
+2018.08.04 21:05:49 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2018.08.04 21:05:51 INFO  app[][o.e.p.PluginsService] no modules loaded
+2018.08.04 21:05:51 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.08.04 21:06:15 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2018.08.04 21:06:15 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp\sq-process1719302664406266332properties
+2018.08.04 21:06:34 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2018.08.04 21:06:34 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='ce', ipcIndex=3, logFilenamePrefix=ce]] from [C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp\sq-process507236136312135782properties
+2018.08.04 21:06:38 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2018.08.04 21:06:38 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+CTRL-C trapped.  Shutting down.
+2018.08.04 21:09:01 INFO  app[][o.s.a.SchedulerImpl] Stopping SonarQube
+2018.08.04 21:09:04 INFO  app[][o.s.a.SchedulerImpl] Process [ce] is stopped
+2018.08.04 21:09:07 INFO  app[][o.s.a.SchedulerImpl] Process [web] is stopped
+2018.08.04 21:09:07 INFO  app[][o.s.a.SchedulerImpl] Process [es] is stopped
+2018.08.04 21:09:07 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2018.08.04 21:09:14 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp
+2018.08.04 21:09:14 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.08.04 21:09:14 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\elasticsearch]: C:\Program Files\Java\jre1.8.0_141\bin\java -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -Xms512m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError -Delasticsearch -Des.path.home=C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\elasticsearch -cp lib/* org.elasticsearch.bootstrap.Elasticsearch -Epath.conf=C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp\conf\es
+2018.08.04 21:09:14 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2018.08.04 21:09:14 INFO  app[][o.e.p.PluginsService] no modules loaded
+2018.08.04 21:09:14 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.08.04 21:09:26 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2018.08.04 21:09:26 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp\sq-process8318700017439275663properties
+2018.08.04 21:09:36 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2018.08.04 21:09:36 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='ce', ipcIndex=3, logFilenamePrefix=ce]] from [C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp\sq-process1067231274816693538properties
+2018.08.04 21:09:39 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2018.08.04 21:09:39 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2018.08.04 21:23:44 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp
+2018.08.04 21:23:44 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.08.04 21:23:44 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\elasticsearch]: C:\Program Files\Java\jre1.8.0_141\bin\java -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -Xms512m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError -Delasticsearch -Des.path.home=C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\elasticsearch -cp lib/* org.elasticsearch.bootstrap.Elasticsearch -Epath.conf=C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp\conf\es
+2018.08.04 21:23:45 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2018.08.04 21:23:45 INFO  app[][o.e.p.PluginsService] no modules loaded
+2018.08.04 21:23:45 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.08.04 21:24:21 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2018.08.04 21:24:21 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp\sq-process7161346325548002793properties
+2018.08.04 21:24:39 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2018.08.04 21:24:39 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='ce', ipcIndex=3, logFilenamePrefix=ce]] from [C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Users\Aduanich\Desktop\TFG ULL\sonarqube-7.2.1\temp\sq-process8476600100706366543properties
+2018.08.04 21:24:43 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2018.08.04 21:24:43 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+CTRL-C trapped.  Shutting down.
+2018.08.05 00:35:56 INFO  app[][o.s.a.SchedulerImpl] Stopping SonarQube
+2018.08.05 00:35:59 INFO  app[][o.s.a.SchedulerImpl] Process [ce] is stopped
+2018.08.05 00:36:03 INFO  app[][o.s.a.SchedulerImpl] Process [web] is stopped
+2018.08.05 00:36:03 INFO  app[][o.s.a.SchedulerImpl] Process [es] is stopped
+2018.08.05 00:36:03 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2018.08.28 22:40:33 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\temp
+2018.08.28 22:40:33 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.08.28 22:40:33 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\elasticsearch]: C:\Program Files\Java\jre1.8.0_141\bin\java -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -Xms512m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError -Delasticsearch -Des.path.home=C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\elasticsearch -cp lib/* org.elasticsearch.bootstrap.Elasticsearch -Epath.conf=C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\temp\conf\es
+2018.08.28 22:40:34 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2018.08.28 22:40:36 INFO  app[][o.e.p.PluginsService] no modules loaded
+2018.08.28 22:40:36 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.08.28 22:40:55 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2018.08.28 22:40:55 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\temp\sq-process6051888457938661740properties
+2018.08.28 22:41:11 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2018.08.28 22:41:11 INFO  app[][o.s.a.p.ProcessLauncherImpl] Launch process[[key='ce', ipcIndex=3, logFilenamePrefix=ce]] from [C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1]: C:\Program Files\Java\jre1.8.0_141\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -cp ./lib/common/*;C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\temp\sq-process1232018833160023031properties
+2018.08.28 22:41:15 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2018.08.28 22:41:15 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up

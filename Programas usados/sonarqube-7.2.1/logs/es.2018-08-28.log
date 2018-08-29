@@ -1,0 +1,479 @@
+2018.08.28 22:40:39 INFO  es[][o.e.n.Node] initializing ...
+2018.08.28 22:40:39 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[SISTEMA (C:)]], net usable_space [95.7gb], net total_space [1.7tb], spins? [unknown], types [NTFS]
+2018.08.28 22:40:39 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2018.08.28 22:40:40 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [ulSatNXTS5OKHHukk49w-g]
+2018.08.28 22:40:40 INFO  es[][o.e.n.Node] version[5.6.3], pid[2728], build[1a2f265/2017-10-06T20:33:39.012Z], OS[Windows 8.1/6.3/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_141/25.141-b15]
+2018.08.28 22:40:40 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\elasticsearch]
+2018.08.28 22:40:42 INFO  es[][o.e.p.PluginsService] loaded module [aggs-matrix-stats]
+2018.08.28 22:40:42 INFO  es[][o.e.p.PluginsService] loaded module [ingest-common]
+2018.08.28 22:40:42 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2018.08.28 22:40:42 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2018.08.28 22:40:42 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2018.08.28 22:40:42 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2018.08.28 22:40:42 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2018.08.28 22:40:44 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen]
+2018.08.28 22:40:45 INFO  es[][o.e.n.Node] initialized
+2018.08.28 22:40:45 INFO  es[][o.e.n.Node] starting ...
+2018.08.28 22:40:45 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2018.08.28 22:40:48 INFO  es[][o.e.c.s.ClusterService] new_master {sonarqube}{ulSatNXTS5OKHHukk49w-g}{lQN7F3DJRVyagU6G7AkJxg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: zen-disco-elected-as-master ([0] nodes joined)
+2018.08.28 22:40:48 INFO  es[][o.e.n.Node] started
+2018.08.28 22:40:49 INFO  es[][o.e.g.GatewayService] recovered [8] indices into cluster_state
+2018.08.28 22:40:55 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2018.08.28 22:41:18 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:41:18 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:41:48 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:42:18 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:42:18 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:42:48 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:43:18 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:43:18 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:43:48 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:44:19 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:44:19 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:44:49 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:45:19 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:45:19 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:45:49 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:46:19 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:46:19 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:46:49 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:47:19 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:47:19 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:47:49 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:48:19 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:48:19 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:48:49 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:49:09 WARN  es[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xa3f06027, L:/127.0.0.1:9001 - R:/127.0.0.1:60116]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_141]
+2018.08.28 22:49:09 WARN  es[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xfb5c9334, L:/127.0.0.1:9001 - R:/127.0.0.1:60115]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_141]
+2018.08.28 22:49:09 WARN  es[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0x8d9cfa52, L:/127.0.0.1:9001 - R:/127.0.0.1:60109]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_141]
+2018.08.28 22:49:09 WARN  es[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xb7b569d5, L:/127.0.0.1:9001 - R:/127.0.0.1:60105]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_141]
+2018.08.28 22:49:09 WARN  es[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0x5fbe1b61, L:/127.0.0.1:9001 - R:/127.0.0.1:60110]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_141]
+2018.08.28 22:49:09 WARN  es[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0x47508589, L:/127.0.0.1:9001 - R:/127.0.0.1:60112]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_141]
+2018.08.28 22:49:09 WARN  es[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xefdac545, L:/127.0.0.1:9001 - R:/127.0.0.1:60113]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_141]
+2018.08.28 22:49:09 WARN  es[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xa6628bbb, L:/127.0.0.1:9001 - R:/127.0.0.1:60111]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_141]
+2018.08.28 22:49:09 WARN  es[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0x14c604eb, L:/127.0.0.1:9001 - R:/127.0.0.1:60108]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_141]
+2018.08.28 22:49:09 WARN  es[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0x84824503, L:/127.0.0.1:9001 - R:/127.0.0.1:60114]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_141]
+2018.08.28 22:49:09 WARN  es[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xf2e0fa2a, L:/127.0.0.1:9001 - R:/127.0.0.1:60107]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_141]
+2018.08.28 22:49:09 WARN  es[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0x1d4c0087, L:/127.0.0.1:9001 - R:/127.0.0.1:60104]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_141]
+2018.08.28 22:49:09 WARN  es[][o.e.t.n.Netty4Transport] exception caught on transport layer [[id: 0xfbd5c6f6, L:/127.0.0.1:9001 - R:/127.0.0.1:60106]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_141]
+2018.08.28 22:49:19 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:49:19 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:49:49 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:50:19 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:50:19 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:50:49 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:51:19 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:51:19 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:51:49 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:52:19 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:52:19 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:52:49 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:53:19 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:53:19 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:53:49 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:54:19 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:54:19 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:54:49 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:55:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:55:20 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:55:50 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:56:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:56:20 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:56:50 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:57:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:57:20 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:57:50 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:58:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:58:20 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:58:50 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:59:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 22:59:20 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 22:59:50 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:00:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:00:20 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:00:50 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:01:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:01:20 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:01:50 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:02:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:02:20 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:02:50 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:03:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:03:20 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:03:50 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:04:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:04:20 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:04:50 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:05:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:05:20 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:05:50 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:06:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:06:20 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:06:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:07:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:07:21 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:07:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:08:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:08:21 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:08:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:09:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:09:21 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:09:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:10:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:10:21 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:10:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:11:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:11:21 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:11:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:12:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:12:21 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:12:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:13:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:13:21 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:13:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:14:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:14:21 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:14:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:15:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:15:21 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:15:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:16:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:16:21 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:16:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:17:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:17:21 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:17:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:18:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:18:21 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:18:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:19:22 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:19:22 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:19:52 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:20:22 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:20:22 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:20:52 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:21:22 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:21:22 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:21:52 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:22:22 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:22:22 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:22:52 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:23:22 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:23:22 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:23:52 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:24:22 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:24:22 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:24:52 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:25:22 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:25:22 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:25:52 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:26:22 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:26:22 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:26:52 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:27:22 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:27:22 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:27:52 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:28:22 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:28:22 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:28:52 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:29:22 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:29:22 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:29:52 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:30:23 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:30:23 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:30:53 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:31:23 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:31:23 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:31:53 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:32:23 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:32:23 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:32:53 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:33:23 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:33:23 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:33:53 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:34:23 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:34:23 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:34:53 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:35:23 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:35:23 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:35:53 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:36:23 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:36:23 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:36:53 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:37:23 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:37:23 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:37:53 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:38:23 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:38:23 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:38:53 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:39:23 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:39:23 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:39:53 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:40:23 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:40:23 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:40:53 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:41:23 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:41:23 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:41:54 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:42:24 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:42:24 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:42:54 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:43:24 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:43:24 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:43:54 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:44:24 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:44:24 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:44:54 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:45:24 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:45:24 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:45:54 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:46:24 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:46:24 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:46:54 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:47:24 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:47:24 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:47:54 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:48:24 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:48:24 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:48:54 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:49:24 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:49:24 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:49:54 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:50:24 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:50:24 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:50:54 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:51:24 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:51:24 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:51:54 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:52:24 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:52:24 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:52:54 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:53:25 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:53:25 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:53:55 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.6gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:54:25 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.4gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:54:25 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:54:55 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.4gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:55:25 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.4gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:55:25 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:55:55 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.4gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:56:25 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.4gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:56:25 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:56:55 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.4gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:57:25 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.4gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:57:25 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:57:55 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.4gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:58:25 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.4gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:58:25 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:58:55 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.4gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:59:25 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.4gb[5.2%], shards will be relocated away from this node
+2018.08.28 23:59:25 INFO  es[][o.e.c.r.a.DiskThresholdMonitor] rerouting shards: [high disk watermark exceeded on one or more nodes]
+2018.08.28 23:59:55 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] high disk watermark [90%] exceeded on [ulSatNXTS5OKHHukk49w-g][sonarqube][C:\Users\Aduanich\Desktop\TFG ULL\Programas usados\sonarqube-7.2.1\data\es5\nodes\0] free: 95.4gb[5.2%], shards will be relocated away from this node

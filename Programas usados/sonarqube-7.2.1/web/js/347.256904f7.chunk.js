@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[347],{936:function(a,t){a.exports="The Default gate is applied to all projects not explicitly assigned to a gate. Quality Profile and Gate administrators can assign projects to a gate from the Quality Profile page. Project administrators can also choose a non-default gate.\n"}}]);
+//# sourceMappingURL=347.256904f7.chunk.js.map

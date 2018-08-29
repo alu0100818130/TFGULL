@@ -1,0 +1,12 @@
+csharp,false,sonar-csharp-plugin-7.2.0.5463.jar|403e52254160e39ee55b29f102135e33
+python,true,sonar-python-plugin-1.10.0.2131.jar|a25e0410f3b46edbf61087b7b994eecb
+java,true,sonar-java-plugin-5.4.0.14284.jar|7d387851cd94264cf8cbdd848f3ef1d2
+ldap,false,sonar-ldap-plugin-2.2.0.608.jar|90da8f56fbbbb3624b8a3f6f1075860a
+flex,false,sonar-flex-plugin-2.4.0.1222.jar|09ae824d3796a4a92678af9454dcfbff
+scmgit,false,sonar-scm-git-plugin-1.4.1.1128.jar|41e5fb381075759ee0274f6dcb7abbff
+xml,false,sonar-xml-plugin-1.5.1.1452.jar|302e7d3fd41752f4113d4185ce94852a
+go,false,sonar-go-plugin-1.1.0.1612.jar|05b8716296f0a4fdbd741af867516597
+php,true,sonar-php-plugin-2.13.0.3107.jar|6b4e13e75fc380ec2df4d064773d004c
+typescript,true,sonar-typescript-plugin-1.7.0.2893.jar|8313c4aaa33b4c3c00652ffe3db2dc2c
+scmsvn,false,sonar-scm-svn-plugin-1.7.0.1017.jar|bc2777ebc2c06c3327b3be3a034dae3e
+javascript,true,sonar-javascript-plugin-4.1.0.6085.jar|132aaa5c3a6da2c09af83d327b1fc182

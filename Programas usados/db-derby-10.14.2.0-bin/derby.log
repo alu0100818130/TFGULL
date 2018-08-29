@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Jul 21 17:47:26 CVT 2018:
+ Iniciando instancia a816c00e-0164-be2a-ff2d-00000eb34ff8 de Derby, versión The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): 
+en el directorio de base de datos C:\Users\Aduanich\Desktop\db-derby-10.14.2.0-bin\testdb con el cargador de clases sun.misc.Launcher$AppClassLoader@55f96302
+Cargado desde file:/C:/Users/Aduanich/Desktop/db-derby-10.14.2.0-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_141-b15
+user.dir=C:\Users\Aduanich\Desktop\db-derby-10.14.2.0-bin
+os.name=Windows 8.1
+os.arch=amd64
+os.version=6.3
+derby.system.home=null
+Cargador de clases de base de datos iniciado - derby.database.classpath=''

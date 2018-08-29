@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[349],{938:function(e,s){e.exports="A Quality Gate is a set of measure-based Boolean conditions. It helps you know immediately whether your project is production-ready. If your current status is not Passed, you'll see which measures caused the problem and the values required to pass.\n"}}]);
+//# sourceMappingURL=349.98511ba4.chunk.js.map

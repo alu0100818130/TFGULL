@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[342],{931:function(e,s){e.exports='Only custom rules may be deleted. When a custom rule is deleted, it is not removed from the SonarQube instance. Instead its status is set to "REMOVED", allowing relevant issues to continue to be displayed properly.\n'}}]);
+//# sourceMappingURL=342.39353c45.chunk.js.map

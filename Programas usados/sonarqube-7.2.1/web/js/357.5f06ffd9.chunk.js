@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[357],{946:function(n,a){n.exports="**Learn how to analyze branches in SonarQube**\n\nQuickly setup branch analysis and get separate insights for each of your branches and pull requests.\n\n---\n\n[Branches Documentation](/branches/index)\n"}}]);
+//# sourceMappingURL=357.5f06ffd9.chunk.js.map

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[367],{1111:function(t,n){t.exports="---\ntitle: Integrations\nscope: sonarcloud\n---\n\nSonarCloud integrates with the following cloud services to help developers get the most out of their code:\n\n* [Integration with GitHub](/integrations/github)\n* [Integration with Bitbucket Cloud](/integrations/bitbucketcloud)\n* [Integration with VSTS](/integrations/vsts)\n"}}]);
+//# sourceMappingURL=367.7899be5a.chunk.js.map
